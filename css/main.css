@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --dark-blue-main-bg: hsl(217, 54%, 11%);
+    --dark-blue-card-bg: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    --font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    left: 0;
+    top: 0;
+
+    background-color: var(--dark-blue-main-bg);
+
+}
+main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: auto;
+
+    padding: 20px;
+
+    box-shadow: 1px 1px 50px 10px hsl(217, 53%, 7%);
+    border-radius: 10px;
+
+    background-color: var(--dark-blue-card-bg);
+}
+
+#title, #description, #eth-cash, #days-left{
+    margin-top: 15px;
+}
+
+#img-equi{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#title{
+    font-size: 23px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+#description{
+    font-size: var(--font-size);
+    font-weight: 400;
+}
+
+.money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#eth-cash, #days-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#eth-cash h1, #days-left h1{
+    font-size: var(--font-size);
+
+    padding-left: 5px;
+}
+
+#eth-cash h1{
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+#days-left h1, #description{
+    color: var(--soft-blue);
+}
+
+hr{
+    border: 0.05px solid var(--dark-blue-line);
+    margin: 15px 0px;
+}
+
+.creator-main{
+    display: flex;
+    align-items: center;
+}
+
+.creator-main #creator-avatar{
+    width: 32px;
+    height: 32px;
+
+    border-radius: 100%;
+    border: 1px solid var(--white);
+    
+}
+
+.creator-main #creator-name{
+    padding-left: 10px;
+
+    font-size: var(--font-size);
+    color: var(--soft-blue);
+}
+
+.creator-main #creator-name span{
+    color: var(--white);
+}
+
+.creator-main #creator-name, .creator-main #creator-name span{
+    font-weight: 400;
+}
