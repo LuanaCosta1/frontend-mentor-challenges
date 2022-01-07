@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --mobile: 375px;
+    --desktop: 1440px;
+
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --grayish-blue: hsl(204, 43%, 93%);
+    --light-gray: hsl(218, 22%, 67%);
+
+    --font-size: 16px;
+
+    --font-family: 'Karla', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: var(--font-family);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: var(--grayish-blue);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    border: 1px solid beige;
+
+    padding: 0;
+
+    width: 670px;
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: var(--font-size);
+
+}
+
+.join-our-community{
+    padding: 30px;
+    background-color: #fff;
+}
+
+.join-our-community .title-join-our-community{
+    color: var(--cyan);
+    font-weight: 700;
+}
+
+
+.join-our-community .subtitle-join-our-community{
+    color: var(--bright-yellow);
+    font-weight: 700;
+}
+
+.title-join-our-community,  .subtitle-join-our-community, .join-our-community p{
+    margin: 15px;
+}
+
+.join-our-community p{
+    font-weight: 400;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subscription{
+    background-color: var(--cyan);
+    color: #fff;
+    font-size: var(--font-size);
+
+    width: 100%;
+    height: 100%;
+
+    padding: 30px;
+}
+
+.subscription .cash-subscription{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.subscription .cash-subscription span{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    color: var(--grayish-blue);
+}
+
+.subscription p{
+    font-weight: 400;
+}
+
+.subscription #sign-up-btn{
+    padding: 10px 70px;
+
+    color: #fff;
+    background-color: var(--bright-yellow);
+
+    border: none;
+    border-radius: 5px;
+
+    margin: 20px auto;
+    box-shadow: 0 0 1em 1px rgba(0, 0, 0, 0.300);
+}
+
+.why-us{
+    background-color: hsla(179, 62%, 43%, 0.842);
+    color: #fff;
+    font-size: var(--font-size);
+
+    width: 100%;
+    height: 100%;
+
+    padding: 30px;
+}
