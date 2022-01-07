@@ -27,6 +27,9 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+![nft-preview-card-component-main](https://user-images.githubusercontent.com/67666536/148473992-ac2e1d18-e3c4-4d95-9e67-751887da3af2.png)
+![profile-card-component](https://user-images.githubusercontent.com/67666536/148473986-83a2760a-0027-4c09-8bfa-9aacf7c368c6.png)
+![single-price-grid-component-master](https://user-images.githubusercontent.com/67666536/148473989-13256976-b9be-4335-8e7a-08c5fd541101.png)
 
 
 
